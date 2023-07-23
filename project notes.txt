@@ -1,0 +1,50 @@
+PROJECT NOTES:
+
+TASK: WHAT TYPES OF FILMS TO CREATE
+
+What affects the success of a movies
+1. budget
+2. rating / reviews (esp from critics)
+3. genre
+4. release-timing
+5. language / religion
+6. quality of film ***
+7. star-power
+8. region 
+9. previous success (fast & furious)
+10.distribution & theatre count
+
+
+#imported the necessary tool for data cleaning and analyses.
+import pandas as pd
+import sqlite3
+import csv
+import numpy as np
+import seaborn as sns
+import matplotlib.pyplot as plt
+%matplotlib inline
+#Ignore warnings
+import warnings
+warnings.filterwarnings('ignore')
+
+
+## RECOMMENDATIONS 
+
+1. External factors - eg Black lives matter, Gender inclusion
+2. Whether they should focus on the local market or international market
+3. Runtime - 90 -150 min...if longer have it in a limited series
+FILES TO WORK ON
+1. BUDGET FILE
+- Set ID column as Index
+- Stripping the $ sign  ****
+- Correct format for the dates
+- Movies that made losses
+
+
+PROJECT FLOW
+1. Load all the files **** 
+
+
+TO REVIEW
+1. Movie_budget boxplot
+
